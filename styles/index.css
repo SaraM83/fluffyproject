@@ -295,7 +295,7 @@ body {
     font-family: Nunito Sans;
     font-size: 16px;
     line-height: 27px;
-    padding-left: 175px;
+    padding-left: 150px;
     font-weight: lighter;
 }
 
@@ -304,7 +304,7 @@ body {
     font-family: Nunito Sans;
     font-size: 16px;
     line-height: 27px;
-    padding-right: 85px;
+    padding-right: 100px;
 }
 
 .bigger {
@@ -317,7 +317,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 1440px;
-    padding: 0px 60px 60px 50px; 
+    padding: 30px 60px 60px 50px; 
     margin-right: 30px;
 }
 
@@ -341,3 +341,55 @@ body {
 .target {
     padding-right: 235px;
 }
+
+.relax_container {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 100px;
+}
+
+.heading_relax {
+    font-size: 38px;
+    line-height: 52px;
+    color: #13253A;
+    font-family: Nunito Sans; 
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.relax_text {
+    font-size: 16px;
+    line-height: 27px;
+    font-family: Nunito Sans;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.relax_list {
+    font-size: 15px;
+    line-height: 27px;
+    color: #13253A;
+    font-family: Nunito Sans;
+    text-align: left;
+}
+
+.relax_list_list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #DCE2E6;
+    opacity: 0.5;
+    width: 1170px;
+  }
