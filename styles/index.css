@@ -161,3 +161,98 @@ body {
     font-size: 16px;
     line-height: 1.7;
 }
+
+
+.numbers_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1440px;
+    height: 205px;
+    background-color: #F2F2F2;
+    padding-top: 60px;
+    /*flex-wrap: wrap;*/
+}   
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    /*font-family: Nunito Sans;
+    text-align: center;*/
+}
+
+.numbers_1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 211px;
+    padding-right: 125px;
+    padding-bottom: 60px;
+}
+
+.numbers_2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 147px;
+    padding-right: 157px;
+}
+
+.numbers_3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 135px;
+}
+
+.first_num {
+    display: flex;
+    font-size: 46px;
+    line-height: 63px;
+    font-family: Nunito Sans;
+    color: #13253A;
+}
+
+.first_text {
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Nunito Sans;
+    color: #2557AB;
+}
+
+.sec_num {
+    display: flex;
+    font-size: 46px;
+    line-height: 63px;
+    font-family: Nunito Sans;
+    color: #13253A;
+}
+
+.sec_text {
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Nunito Sans;
+    color: #2557AB;
+}
+
+.third_num {
+    display: flex;
+    font-size: 46px;
+    line-height: 63px;
+    font-family: Nunito Sans;
+    color: #13253A;
+}
+
+.third_text {
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Nunito Sans;
+    color: #2557AB;
+}
