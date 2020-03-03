@@ -95,6 +95,7 @@ body {
     color: #2557AB;
     font-size: 16px;
     padding-bottom: 5px;
+    line-height: 22px;
 }
 
 .heading__large {
@@ -162,6 +163,10 @@ body {
     line-height: 1.7;
 }
 
+.bolder { 
+    font-weight: bold;
+}
+
 
 .numbers_container {
     display: flex;
@@ -170,7 +175,7 @@ body {
     width: 1440px;
     height: 205px;
     background-color: #F2F2F2;
-    padding-top: 60px;
+    padding-top: 100px;
     /*flex-wrap: wrap;*/
 }   
 
@@ -257,6 +262,10 @@ body {
     color: #2557AB;
 }
 
+span {
+    color: #FF7F57;
+}
+
 .heading_2 {
     display: flex;
     flex-direction: column;
@@ -307,11 +316,11 @@ body {
     padding-right: 100px;
 }
 
-.bigger {
+/*.bigger {
     font-size: 20px;
     font-style: italic;
     line-height: 30px;
-}
+}*/
 
 .brands_logos_container {
     display: flex;
@@ -393,3 +402,110 @@ hr {
     opacity: 0.5;
     width: 1170px;
   }
+
+  .content_2_left:first-child {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+  }
+
+  .start_container {
+      text-align: center;
+      background-color: #FF7F57;
+  }
+
+  .heading_3_small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: Muli;
+    padding-top: 100px;
+  }
+
+  .heading_3_large {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 46px;
+    line-height: 63px;
+    color: #F4F6F7;
+    padding-bottom: 10px;
+}
+
+.start_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: Muli;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.get_started {
+    width: 336px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #2557AB;
+    border-radius: 3px;
+    font-family: Muli;
+    border-style: none;
+    box-shadow: #2557AB;
+    font-size: 16px;
+}
+
+.start_button {
+    padding-bottom: 100px;
+}
+
+.form_container {
+    background-color: #11364E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading_contact_us {
+    text-align: center;
+    font-size: 38px;
+    line-height: 52px;
+    font-family: Muli;
+    color: #ffffff;
+    background-color: #11364E;
+    padding-bottom: 30px;
+    padding-top: 140px;
+}
+
+.form_contact_us {
+    display: flex;
+}
+
+#message {
+    width: 370px;
+    height: 140px;
+}
+
+.contact_input {
+    color: #ffffff;
+    font-family: Muli;
+}
+
+.your_message {
+    color: #ffffff;
+    background-color: #FF7F57;
+    border-radius: 3px;
+    border-style: none;
+    width: 370px;
+    height: 60px;
+}
+
+.button_submit {
+    padding-bottom: 140px;
+    padding-top: 36px;
+}
+
+.first_name {
+    width: 371px;
+    height: 76px;
+}
