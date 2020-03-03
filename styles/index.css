@@ -37,12 +37,24 @@ body {
     padding-right: 50px;
 }
 
+.links__service:hover {
+    color: #2557AB;
+}
+
 .links__about {
     padding-right: 50px;
 }
 
+.links__about:hover {
+    color: #2557AB;
+}
+
 .links__contact {
     padding-right: 135px;
+}
+
+.links__contact:hover {
+    color: #2557AB;
 }
 
 .content_container {
@@ -70,6 +82,11 @@ body {
     color: #ffffff;
     width: 336px;
     height: 60px;
+}
+
+.free_consultation:hover {
+    background-color: #FF7F57;
+    color: rgb(148, 54, 25);
 }
 
 .services_container {
@@ -453,6 +470,12 @@ hr {
     border-style: none;
     box-shadow: #2557AB;
     font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.get_started:hover {
+    background-color: #2557AB;
+    color:  rgb(19, 50, 104);
 }
 
 .start_button {
@@ -481,14 +504,21 @@ hr {
     display: flex;
 }
 
-#message {
+.message {
     width: 370px;
     height: 140px;
+    font-size: 13px;
+    background-color: #11364E;
+    border-style: none;
+    border-bottom: #2557AB solid 1px;
+    opacity: 0.4;
+    text-align: left;
 }
 
 .contact_input {
     color: #ffffff;
     font-family: Muli;
+    font-size: 13px; 
 }
 
 .your_message {
@@ -498,6 +528,12 @@ hr {
     border-style: none;
     width: 370px;
     height: 60px;
+    font-size: 17px;
+}
+
+.your_message:hover {
+    background-color: #FF7F57;
+    color: rgb(148, 54, 25);
 }
 
 .button_submit {
@@ -505,7 +541,22 @@ hr {
     padding-top: 36px;
 }
 
-.first_name {
+.full_name {
     width: 371px;
-    height: 76px;
+    height: 40px;
+    background-color: #11364E;
+    border-style: none;
+    border-bottom: #2557AB solid 1px;
+    margin-bottom: 10px;
+    opacity: 0.4;
+}
+
+.email {
+    width: 371px;
+    height: 40px;
+    background-color: #11364E;
+    border-style: none;
+    border-bottom: #2557AB solid 1px;
+    margin-bottom: 10px;
+    opacity: 0.4;
 }
