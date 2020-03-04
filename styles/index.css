@@ -4,7 +4,7 @@ body {
 
 .first_container {
     display: flex;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 810px;
     background-color: #F4F6F7;
 }
@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 810px;
     background-color: #F4F6F7;
     justify-content: space-around;
@@ -61,13 +61,38 @@ body {
     display: flex;
 }
 
+.content_heading_small {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    color: #2557AB;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.content_heading_large {
+    font-family: Nunito Sans;
+    font-size: 38px;
+    color: #13253A; 
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.content_text {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7;
+    color: #13253A;
+    padding-right: 75px;
+}
+
 .content__button {
     display: flex;
     align-items: flex-end;
-    width: 470px;
-    height: 261px;
+    width: 336px;
+    height: 60px;
     padding-right: 120px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .free_consultation {
@@ -147,7 +172,6 @@ body {
 .boxes__1 {
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
     align-items: center;
     text-align: center;
     width: 370px;
@@ -159,7 +183,6 @@ body {
 .boxes__2 {
     display: flex;
     align-items: center;
-    /*flex-wrap: wrap;*/
     flex-direction: column;
     text-align: center;
     width: 370px;
@@ -170,7 +193,6 @@ body {
 
 .boxes__3 {
     display: flex;
-    /*flex-wrap: wrap;*/
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -184,7 +206,6 @@ body {
     font-weight: bold;
 }
 
-
 .numbers_container {
     display: flex;
     flex-direction: row;
@@ -193,15 +214,11 @@ body {
     height: 205px;
     background-color: #F2F2F2;
     padding-top: 100px;
-    /*flex-wrap: wrap;*/
 }   
 
 .numbers {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-evenly;*/
-    /*font-family: Nunito Sans;
-    text-align: center;*/
 }
 
 .numbers_1 {
@@ -332,12 +349,6 @@ span {
     line-height: 27px;
     padding-right: 100px;
 }
-
-/*.bigger {
-    font-size: 20px;
-    font-style: italic;
-    line-height: 30px;
-}*/
 
 .brands_logos_container {
     display: flex;
@@ -496,7 +507,7 @@ hr {
     font-family: Muli;
     color: #ffffff;
     background-color: #11364E;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 140px;
 }
 
@@ -505,14 +516,13 @@ hr {
 }
 
 .message {
-    width: 370px;
-    height: 140px;
     font-size: 13px;
     background-color: #11364E;
     border-style: none;
     border-bottom: #2557AB solid 1px;
     opacity: 0.4;
-    text-align: left;
+    padding-top: 15px;
+    resize: none;
 }
 
 .contact_input {
@@ -542,21 +552,32 @@ hr {
 }
 
 .full_name {
-    width: 371px;
-    height: 40px;
     background-color: #11364E;
     border-style: none;
     border-bottom: #2557AB solid 1px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     opacity: 0.4;
+    padding-top: 15px;
+}
+
+.full_name:focus {
+    background-color: #2557AB;
 }
 
 .email {
-    width: 371px;
-    height: 40px;
     background-color: #11364E;
     border-style: none;
     border-bottom: #2557AB solid 1px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     opacity: 0.4;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.email:focus {
+    background-color: #2557AB;
+}
+
+.message:focus {
+    background-color: #2557AB;
 }
